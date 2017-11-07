@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/fanhui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="《"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:id="@+id/to"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="注册"/>
+
+    <TextView
+        android:id="@+id/xian"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/to"
+        android:background="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/xian"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <EditText
+            android:id="@+id/phone2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入手机号"/>
+
+        <EditText
+            android:id="@+id/mima2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入密码"
+            android:paddingTop="20dp"/>
+
+        <Button
+            android:id="@+id/zhuce2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="注册"/>
+    </LinearLayout>
+
+</RelativeLayout>
